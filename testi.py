@@ -1,3 +1,0 @@
-testi.py
-
-import test

